@@ -1,0 +1,26 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  background-color: rgba(34, 197, 94, 0.15);
+  color: #16a34a;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+
+.description {
+  max-width: 600px;
+  color: #6b7280;
+  line-height: 1.6;
+}
